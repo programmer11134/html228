@@ -1,0 +1,6 @@
+.blink{
+    text-decoration: blink;
+    -webkit-text-decoration: blink;
+    -moz-text-decoration: blink;
+    animation: blinker 1s linear infinite;
+    }

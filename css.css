@@ -1,0 +1,256 @@
+@font-face {
+    font-family: Hel;
+    src: url(HelveticaRegular/HelveticaRegular.ttf);
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Hel;
+}
+header {
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 2% 0% 3%;
+}
+main {
+    padding: 2% 2%;
+}
+.pp{
+    width: 95%;
+}
+.end{
+    align-items: flex-end;
+    display: flex;
+    bottom: 0;
+}
+.space{
+    margin-top: 4%;
+}
+.item {
+font-size: 555%;;
+width: 63%;
+font-family: Hel;
+}
+.flex2{
+    display: flex;
+    justify-content: space-between;
+}
+.tops{
+    margin-top: 5%;
+}
+.wid{
+    width: 20%;
+}
+.width{
+    width: 42%;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.line{
+    border-bottom: 1px solid black;
+    margin-left: 50%;
+}
+.topped{
+    margin-top: 55%
+}
+.outline{
+    outline-style: solid;
+    width: 30%;
+}
+.mid{
+    justify-items: center;
+    text-align: center;
+    width: 95%;
+    padding: 2%;
+}
+.main2 {
+    display: flex;
+}
+.ostup{
+    padding: 0 0 3% 0%;
+}
+.secondBlock {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    width: 40%;
+}
+.qq{
+    width: 100%;
+}
+.input {
+    display: flex;
+    flex-direction: column;
+}
+.txtMain,
+.input {
+    padding-bottom: 4%;
+}
+input {
+    padding: 4% 0%;
+    border: none;
+    border-bottom: solid 1px black;
+}
+button {
+    width: 50%;
+    padding: 5%;
+    margin: 9% 0%;
+    background-color: black;
+    color: white;
+    height: 22%;
+}
+.mid2{
+    justify-content: center;
+    display: flex;
+    justify-items: center;
+    width: 95%;
+}
+.end_footer{
+    display: flex;
+    text-align: right;
+    justify-content: flex-end;
+    width: 95%;
+}
+.text_center{
+    text-align: center;
+    padding: 10%;
+}
+
+.miniApp {
+    height: 100%;
+    width: 90%;
+    padding: 0.5%;
+}
+.app{
+    display: flex;
+}
+.size{
+    height: 100%;
+    width: 100%;
+}
+.right{
+    margin-left: 50%;
+    padding: 1%;
+}
+.bot{
+    margin-top: 56%;
+}
+.onl_flex {
+    display: flex;
+
+}
+.right2,.right3{
+    margin-left: 39%;
+}
+.widing{
+    width: 5%;
+}
+.evenly{
+    display: flex;
+    justify-content: space-evenly;
+}
+.pad{
+    padding-top: 4%;
+}
+.col{
+    color: black;
+}
+.centr{
+    margin-left: 27%;
+}
+.pic{
+    width: 50%;
+}
+.hid{
+    visibility: hidden;
+    display:  none;
+}
+.unhid{
+    visibility: visible;
+    display: block;
+}
+.grid{
+    display: grid;
+    justify-content: center;
+}
+.txt_wid{
+    width: 50%;
+}
+@media screen and (max-width: 440px) {
+    .hid{
+        visibility:visible;
+        display: block;
+    }
+    .unhid{
+        visibility: hidden;
+        display: none;
+    }
+    .item {
+        font-size: 259%;
+        width: 83%;
+        font-family: Hel;
+        }
+    .flex{
+        display: block;
+    }
+    .width{
+        width: 95%;
+    }
+    .outline{
+        width: 95%;
+        margin-top: 5%;
+    }
+    .right{
+        margin-left: 0;
+        padding: 3% 0%;
+    }
+    .onl_flex{
+        display: block;
+    }
+    .line{
+            border-bottom: 1px solid black;
+            margin-left: 0;
+        
+    }
+    .right3{
+        margin-left: 0;
+    }
+    .wid{
+        width: 95%;
+    }main {
+        padding: 2% 2%;
+    }
+    .secondBlock{
+        display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    width: 98%;
+    }
+    .centr{
+        margin-left: 0;
+    }
+    .wid{
+        width: 95%;
+        padding: 5% 2%;
+    }
+    .qq{
+        width: 150%;
+    }      
+    .widing{
+        width: 98%;
+    }
+    .right2{
+        margin-left: 0;
+    }
+    .txt_wid{
+        width: 98%;
+    }
+    
+}
+footer{
+    padding: 2% 2%;
+}

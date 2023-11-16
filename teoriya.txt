@@ -1,0 +1,22 @@
+<i></i> курсив
+<del></del> перечеркнутое слово
+<b></b> жирный шрифт
+<mark></mark> подчеркивание желтым слова
+<sub></sub> нижний знак
+pixaboy приложение для картинок
+<img scr="" width="" height="" alt=""> картинка
+<vid controls autoplay scr=""></vid> видео controls кнопки autoplay авто приогрование
+<iframe scr=""></iframe> вебстраница в вебстраницце
+<header></header> сверху
+<main></main> внутри
+<footer></foooter> вниз
+<nav></nav> меню
+<seliction></seliction> основа
+<article></article> добавка
+display grid табличный
+display flex в линию
+justify-content в шырину
+flex-direction столбец
+<a href="" target="_blank"></a> новая вкладка
+prudnikovdanja80@gmail.com
+programmer11134
